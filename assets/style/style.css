@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+h1{
+    font-family: "Playfair Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: 72px;
+}
+

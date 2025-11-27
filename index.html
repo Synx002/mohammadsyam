@@ -8,13 +8,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
-<body>
-    <nav>
-
+<body class="overflow-hidden bg-[#EFECE3]">
+    <nav class="w-full flex justify-end px-6 py-4 sticky top-0 z-50">
+        <ul class="flex space-x-6 text-sm">
+            <li><a href="#" class="text-gray-800 hover:text-black">Home</a></li>
+            <li><a href="#" class="text-gray-800 hover:text-black">About</a></li>
+            <li><a href="#" class="text-gray-800 hover:text-black">Work</a></li>
+        </ul>
     </nav>
-    <div class="container">
-        Mohammad Syam
+
+    <div class="h-screen w-full max-w-5xl mx-auto flex justify-center items-start flex-col">
+        <h1 class="italic">Mohammad Syam</h1>
+        <p>A passionate junior
+            <span id="role" class="inline-block opacity-0 translate-y-2 transition-all duration-700 "></span>
+        </p>
+        <div class="flex space-x-3 mt-4 text-2xl">
+            <a href="https://github.com/yourusername" target="_blank" class="text-gray-600 hover:text-black transition-colors duration-200">
+                <img src="./assets/images/github.svg" alt="GitHub" class="w-7 h-7">
+            </a>
+
+            <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="text-gray-600 hover:text-black transition-colors duration-200">
+                <img src="./assets/images/linkedin.svg" alt="Linked In" class="w-7 h-7">
+            </a>
+
+            <a href="https://instagram.com/yourusername" target="_blank" class="text-gray-600 hover:text-black transition-colors duration-200">
+                <img src="./assets/images/instagram.svg" alt="Instagram" class="w-7 h-7">
+            </a>
     </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
