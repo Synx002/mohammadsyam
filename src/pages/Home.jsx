@@ -9,6 +9,9 @@ export default function Home() {
     const [fadeClass, setFadeClass] = useState("opacity-0 translate-y-2");
 
     useEffect(() => {
+        // Disable scroll on mount
+        document.body.classList.add("overflow-hidden");
+
         // Initial fade in
         const initialTimeout = setTimeout(() => {
             setFadeClass("opacity-100 translate-y-0");
@@ -27,6 +30,8 @@ export default function Home() {
         }, 1500); // Total cycle time
 
         return () => {
+            // Re-enable scroll on unmount
+            document.body.classList.remove("overflow-hidden");
             clearTimeout(initialTimeout);
             clearInterval(interval);
         };
