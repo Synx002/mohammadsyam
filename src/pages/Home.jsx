@@ -27,7 +27,7 @@ export default function Home() {
                 setFadeClass("opacity-100 translate-y-0");
             }, 700); // Wait for transition to finish (700ms)
 
-        }, 1500); // Total cycle time
+        }, 2500); // Total cycle time
 
         return () => {
             // Re-enable scroll on unmount
