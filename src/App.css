@@ -4,8 +4,20 @@ h1 {
   font-weight: normal;
 }
 
+/* Page Transition Styles */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 
-body.loaded {
-  opacity: 1;
-  transform: translateY(0);
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  animation: fadeInUp 0.5s ease-in-out forwards;
+  width: 100%;
 }

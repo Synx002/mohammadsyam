@@ -1,7 +1,8 @@
-import tekadHero from '../assets/tekadHero.png';
-import myTaxHero from '../assets/myTaxHero.png';
-import daikhHero from '../assets/daikhHero.png';
-import kaboHero from '../assets/kaboHero.png';
+import tekadHero from '../assets/tekadHero.webp';
+import myTaxHero from '../assets/myTaxHero.webp';
+import daikhHero from '../assets/daikhHero.webp';
+import kaboHero from '../assets/kaboHero.webp';
+import keepifyHero from '../assets/keepifyHero.webp';
 
 const projects = [
     {
@@ -40,6 +41,16 @@ const projects = [
         imageUrl: kaboHero,
         webUrl: "https://kabo.id/",
     },
+    {
+        title: "Keepify",
+        description:
+            "a passion project i’m currently building with a friend 🚀 an app designed to make item storage and safekeeping feel simple, modern, and stress-free.",
+        extraInfo:
+            "i handle the frontend side—designing the UI, building reusable components, and making sure everything feels smooth and intuitive. still in progress, but we’re shaping it with lots of care, late-night commits, and big ideas ✨💻",
+        imageUrl: keepifyHero,
+        webUrl: "/",
+    },
+
 ];
 
 export default projects;
