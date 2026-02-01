@@ -12,7 +12,7 @@ const projects = [
         extraInfo:
             "all the web dev magic (aka: coding, debugging, crying at 2am) was done by me! super proud of how it turned out 💻✨.",
         imageUrl: tekadHero,
-        webUrl: "https://synx002.github.io/tekadverse-2024/",
+        webUrl: "https://tekadverse.id/",
     },
     {
         title: "My Tax Indonesia",
