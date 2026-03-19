@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Works from './pages/Works'
+import ProjectDetail from './pages/ProjectDetail'
 import PageTransition from './components/PageTransition'
 import './App.css'
 
@@ -28,6 +29,11 @@ function App() {
           <Route path="/works" element={
             <PageTransition>
               <Works />
+            </PageTransition>
+          } />
+          <Route path="/project/:id" element={
+            <PageTransition>
+              <ProjectDetail />
             </PageTransition>
           } />
         </Routes>
