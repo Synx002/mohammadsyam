@@ -56,7 +56,7 @@ export default function Home() {
                 </p>
 
                 <div className="flex space-x-4 text-xl md:text-2xl">
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/Synx002" target="_blank">
                         <img
                             src={githubIcon}
                             alt="GitHub"
@@ -64,7 +64,7 @@ export default function Home() {
                         />
                     </a>
 
-                    <a href="#" target="_blank">
+                    <a href="https://www.linkedin.com/in/mohammadsyam/" target="_blank">
                         <img
                             src={linkedinIcon}
                             alt="LinkedIn"
@@ -72,7 +72,7 @@ export default function Home() {
                         />
                     </a>
 
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/syam02__/" target="_blank">
                         <img
                             src={instagramIcon}
                             alt="Instagram"
